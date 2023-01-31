@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="4631.0" prefWidth="1520.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproject1.technology1">
+    <children>
+        <Region prefHeight="131.0" prefWidth="1520.0" style="-fx-background-color: #0598ff;" />
+        <ImageView fx:id="menu" fitHeight="55.0" fitWidth="55.0" layoutX="75.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@burger.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="120.0" fitWidth="141.0" layoutX="200.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@logo_light-removebg-preview.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="menu1" fitHeight="55.0" fitWidth="55.0" layoutX="75.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@burger.png" />
+            </image>
+        </ImageView>
+        <MenuButton alignment="CENTER" layoutX="367.0" layoutY="47.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="155.0" style="-fx-background-color: #0598ff; -fx-border-color: #ffffff; -fx-border-width: 2px;" text="Catagories" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS Italic" size="19.0" />
+            </font>
+         <items>
+            <Menu mnemonicParsing="false" text="Common">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Dbase" />
+                  <MenuItem mnemonicParsing="false" text="Java" />
+                  <MenuItem mnemonicParsing="false" text="Python" />
+                  <MenuItem mnemonicParsing="false" text="Html and Css" />
+                  <MenuItem mnemonicParsing="false" text="C/C++" />
+                  <MenuItem mnemonicParsing="false" text="English" />
+                  <MenuItem mnemonicParsing="false" text="Github" />
+                  <MenuItem mnemonicParsing="false" text="JavaScript" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Technolgy">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ui/Ux" />
+                  <MenuItem mnemonicParsing="false" text="AIML" />
+                  <MenuItem mnemonicParsing="false" text="Cloud" />
+                  <MenuItem mnemonicParsing="false" text="Data Science" />
+                  <MenuItem mnemonicParsing="false" text="Cyber_Security" />
+                  <MenuItem mnemonicParsing="false" text="Blockchain" />
+                  <MenuItem mnemonicParsing="false" text="VR-AR" />
+                  <MenuItem mnemonicParsing="false" text="Devops" />
+               </items>
+            </Menu>
+         </items>
+        </MenuButton>
+        <ToolBar layoutX="610.0" layoutY="42.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="56.0" prefWidth="364.0" style="-fx-background-color: transparent;">
+            <items>
+                <TextField prefHeight="46.0" prefWidth="276.0" promptText="What do you want to learn?">
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font></TextField>
+                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="46.0" prefWidth="71.0" style="-fx-background-color: white;" styleClass="search" stylesheets="@Style.css" text="Search" textFill="GREY">
+                    <font>
+                        <Font name="Comic Sans MS Italic" size="13.0" />
+                    </font>
+                </Button>
+            </items>
+        </ToolBar>
+        <Button fx:id="logout" layoutX="1285.0" layoutY="42.0" mnemonicParsing="false" onAction="#logoutpage" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 2px;" styleClass="logOut" text="Log Out" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS Italic" size="25.0" />
+            </font>
+        </Button>
+        <ScrollPane layoutY="131.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1520.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="4500.0" prefWidth="1518.0">
+                    <children>
+                        <AnchorPane fx:id="slider1" layoutX="262.0" prefHeight="2842.0" prefWidth="1259.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="262.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <AnchorPane layoutX="-1.0" layoutY="1283.0" prefHeight="800.0" prefWidth="1174.0">
+                                    <children>
+                                        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                            <children>
+                                                <ImageView fitHeight="199.0" fitWidth="325.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="849.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/IOT/iot.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="WHAT IS IOT?" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="258.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="IoT is a hot area and it has the potential to impact a variety of industries. This course is designed to initiate the widest possible group of people to the field of IoT and will be comprehensive in its scope. This course supplies in-depth content that put the theory into practice. " wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg5" layoutX="973.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+                                            <children>
+                                                <ImageView fitHeight="178.0" fitWidth="306.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="868.0" AnchorPane.topAnchor="9.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/IOT/iot1.png" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="MASTERING IOT WITH ARDINO" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="274.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="76.0" prefWidth="824.0" text="You will configure your Arduino and set it up for your IoT projects. You will use API to store and retrieve data from things using the HTTP protocol over the Internet or via a local area network. Understand the different ThingSpeak channels by analyzing and visualizing data using MATLAB" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg6" layoutX="974.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0">
+                                            <children>
+                                                <ImageView fitHeight="194.0" fitWidth="298.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="14.851348876953125" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="876.4000000000001" AnchorPane.topAnchor="14.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/IOT/download.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="SERVERLESS IOT SOLUTIONS" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="261.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="80.0" prefWidth="824.0" text="The goal of the course is to you get acquainted with the Function-as-a-Service offering from Microsoft Azure and Azure Functions. After understanding Serverless Architectures, the course will dwell into triggers and how to use them in code to react to events that occur in several Azure Services" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg7" layoutX="975.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="410.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="600.0">
+                                            <children>
+                                                <ImageView fitHeight="177.0" fitWidth="311.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="12.0625" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="863.4000000000001" AnchorPane.topAnchor="13.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/IOT/_638003913632140056.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="INGEST IOT DATA BY USING AZURE IOT HUB" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="260.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="In this challenge, you will configure an Azure IoT hub to ingest sensor readings at scale. First, you will create an Azure IoT hub resource. Next, you will register IoT devices. Finally, you will test device connectivity to the hub. Note: Once you begin the challenge, you will not be able to pause, save, or return to your challenge" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg8" layoutX="984.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="1079.0" prefHeight="140.0" prefWidth="1258.0" style="-fx-border-color: gray; -fx-border-width: 0px 0px 7px 0px;">
+                                    <children>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="21.0" prefHeight="97.0" prefWidth="419.0" text="IOT" textFill="#4e4747">
+                                            <font>
+                                                <Font name="Goudy Old Style" size="42.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="236.0" prefHeight="800.0" prefWidth="1174.0">
+                                    <children>
+                                        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                            <children>
+                                                <ImageView fitHeight="199.0" fitWidth="325.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="849.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Cyber_Security/Cyber-Security.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="CYBER SECURITY FOUNDATION" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="258.0" text="Course Level :  Beginner">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="Designed to enable any IT novice to understand the fundamental principles of information security, general awareness on Cyber-attacks &amp; terminologies of Cyber Security, importance of cryptography for data security, threat modeling for secure design of software, key concepts of identity and access and importance of governance &amp; administration of identities" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg1" layoutX="701.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.0">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+                                            <children>
+                                                <ImageView fitHeight="183.0" fitWidth="282.0" layoutX="31.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="888.1276550292969" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Cyber_Security/cs2.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="INTRODUCTION TO CYBER SECURITY" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="274.0" text="Course Level :  Beginner">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="76.0" prefWidth="824.0" text="This course focuses on the Cyber attacks emerging from web applications. It is recommended that the web application developers are aware of the Top 10 web application mistakes suggested by OWASP (Open Web Application Security Project). This course will explain each of these mistakes and its counter measure" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg2" layoutX="984.0" layoutY="135.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0">
+                                            <children>
+                                                <ImageView fitHeight="189.0" fitWidth="323.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="881.9836120605469" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Cyber_Security/cs3.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="DIGITAL FORENSICS FOR CYBER PROFESSIONALS" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="260.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="356.0" layoutY="60.0" prefHeight="90.0" prefWidth="824.0" text="In this course you will learn how to use open source tools to collect digital forensic information from Linux and Windows systems. You will learn how to conduct static malware analysis of live 'Ransomware' using forensics tools and techniques. This course focuses on screencast demonstrations of how to use these tools in a step-by-step manner so you can start doing forensics work immediately on your own" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg3" layoutX="1001.0" layoutY="138.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="410.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="600.0">
+                                            <children>
+                                                <ImageView fitHeight="201.0" fitWidth="298.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="12.390625" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="882.0" AnchorPane.topAnchor="13.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Cyber_Security/cs.png" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="260.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="CYBER SECURITY TERMINOLOGIES" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="Technology continues to evolve more rapidly than ever, and the demand for enterprises to continuously update their policies is more vital than ever. No longer are attackers continuing to throw sophisticated attacks that can cripple a business (ex. Ransomware) at the largest companies. So it is important to know the technical terms in cyber security" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg4" layoutX="997.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="31.0" prefHeight="140.0" prefWidth="1258.0" style="-fx-border-color: gray; -fx-border-width: 0px 0px 7px 0px;">
+                                    <children>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="21.0" prefHeight="97.0" prefWidth="419.0" text="Cyber Security" textFill="#4e4747">
+                                            <font>
+                                                <Font name="Goudy Old Style" size="42.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="2328.0" prefHeight="800.0" prefWidth="1174.0">
+                                    <children>
+                                        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                            <children>
+                                                <ImageView fitHeight="181.0" fitWidth="293.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="881.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/AIML/real-world-applications-of-ai-you-need-to-know-about-368578-640x360.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="UX WITH ARTIFICIAL INTELLIGENCE" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="258.0" text="Course Level :  Beginner">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="User experience (UX) design provides a theoretical understanding of how users interact with websites. UX design is the process of enhancing user satisfaction with a product by improving the usability, accessibility, and pleasure provided in the interaction with the product. Everything humans interact with has an experience associated with it" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg9" layoutX="976.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+                                            <children>
+                                                <ImageView fitHeight="180.0" fitWidth="276.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="898.0" AnchorPane.topAnchor="7.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/AIML/aiml1.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="ARTIFICIAL INTELLIGENCE IN A  NUTSHELL" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="274.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="76.0" prefWidth="824.0" text="Deep Q-Learning and Deep Convolutional Q-Learning, the various fields of Reinforcement Learning. And we cover all of those topics by coding in PYTORCH, Kivy, and OpenAIGym. Throughout the course, we will build an intelligent self-driving car by applying Deep Q-Learning and we are going to win Doom with the power of Deep Convolutional Q-Learning!" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg10" layoutX="984.0" layoutY="135.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0">
+                                            <children>
+                                                <ImageView fitHeight="185.0" fitWidth="264.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="9.5" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="910.4000000000001" AnchorPane.topAnchor="9.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/AIML/aiml2.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="46.0" prefWidth="535.0" text="MACHINE LEARNING" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="261.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="80.0" prefWidth="824.0" text="Machine learning and data analysis are the center of attraction for many engineers and scientists The reason is quite obvious: its vast application in numerous fields and booming career options And Python is one of the leading open source platforms for data science and numerical computing IPython" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg11" layoutX="990.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="410.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="600.0">
+                                            <children>
+                                                <ImageView fitHeight="182.0" fitWidth="276.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="898.0" AnchorPane.topAnchor="13.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/AIML/csm_deep-learning-vs-machine-learning-t_7e68ee9fc4.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="AWS MACHINE LEARNING SERVICE" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="260.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="his course is completely hands-on with examples using: AWS Web Console, Python Notebook Files, and Web clients built on AngularJS" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg12" layoutX="976.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="2127.0" prefHeight="140.0" prefWidth="1258.0" style="-fx-border-color: gray; -fx-border-width: 0px 0px 7px 0px;">
+                                    <children>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="21.0" prefHeight="97.0" prefWidth="419.0" text="AIML" textFill="#4e4747">
+                                            <font>
+                                                <Font name="Goudy Old Style" size="42.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="3383.0" prefHeight="800.0" prefWidth="1174.0">
+                                    <children>
+                                        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                            <children>
+                                                <ImageView fitHeight="199.0" fitWidth="325.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="849.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Data_Science/What-is-data-science-2.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="INTRODUCTION TO DATA SCIENCE" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="258.0" text="Course Level :  Beginner">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="This course introduces data science and its various components to the participants and makes them realize the importance of data and its analysis, in today's business world. It also enables the participants to comprehend various scenarios where data science can be applied to solve business problems" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg13" layoutX="969.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+                                            <children>
+                                                <ImageView fitHeight="175.0" fitWidth="313.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="871.0" AnchorPane.topAnchor="-1.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Data_Science/ds3.png" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="PYTHON FOR DATA SCIENCE" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="274.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="76.0" prefWidth="824.0" text="Python is a high-level programming language which has gained a remarkable growth in the field of Data Science. This course aims to introduce you the very powerful, open-source tools used to analyze data and conduct Data Science." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg14" layoutX="987.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0">
+                                            <children>
+                                                <ImageView fitHeight="175.0" fitWidth="298.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="886.0" AnchorPane.topAnchor="-1.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Data_Science/ds2.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="46.0" prefWidth="535.0" text="DATA SCIENCE TOOLS" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="261.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="80.0" prefWidth="824.0" text="Explore a variety of new data science tools available today; the different uses for these tools; and the benefits and challenges in deploying them in this 12-video course. First, examine a data science platform, the nucleus of technologies used to perform data science tasks. You will then explore the analysis process to inspect, clean, transform, and model data." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg15" layoutX="981.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="410.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="600.0">
+                                            <children>
+                                                <ImageView fitHeight="195.0" fitWidth="289.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="895.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Data_Science/ds1.png" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="JUPYTER FOR DATA SCIENCE" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="260.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="360.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="Jupyter Notebook is a web-based environment that enables interactive computing in notebook documents. It allows you to create documents that contain live code, equations, and visualizations. This video course is a comprehensive guide to getting started with data science using the popular Jupyter Notebook" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg16" layoutX="973.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="3169.0" prefHeight="140.0" prefWidth="1258.0" style="-fx-border-color: gray; -fx-border-width: 0px 0px 7px 0px;">
+                                    <children>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="21.0" prefHeight="97.0" prefWidth="419.0" text="DATA SCIENCE" textFill="#4e4747">
+                                            <font>
+                                                <Font name="Goudy Old Style" size="42.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <Button fx:id="next1" layoutX="952.0" layoutY="4310.0" mnemonicParsing="false" onAction="#nextpage1" prefHeight="74.0" prefWidth="212.0" style="-fx-background-color: #0598ff; -fx-border-color: grey;" text="Next Page&gt;&gt;" textFill="WHITE">
+                                    <font>
+                                        <Font name="Constantia Italic" size="31.0" />
+                                    </font>
+                                </Button>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="slider" prefHeight="2880.0" prefWidth="262.0" style="-fx-background-color: #919191;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <VBox layoutY="26.0" prefHeight="438.0" prefWidth="178.0" spacing="33.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+                                    <children>
+                                        <Button fx:id="home" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#homepage" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Home" textFill="WHITE">
+                                            <font>
+                                                <Font name="Comic Sans MS" size="19.0" />
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@home.png" />
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                        <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#dashboard" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Dashboard" textFill="WHITE">
+                                            <font>
+                                                <Font name="Comic Sans MS" size="19.0" />
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@user.png" />
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                        <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="83.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Settings" textFill="WHITE">
+                                            <font>
+                                                <Font name="Comic Sans MS" size="19.0" />
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@setting.png" />
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                        <Button fx:id="help" alignment="TOP_LEFT" layoutX="10.0" layoutY="156.0" mnemonicParsing="false" onAction="#helppage" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Help" textFill="WHITE">
+                                            <font>
+                                                <Font name="Comic Sans MS" size="19.0" />
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="55.0" fitWidth="55.0" opacity="0.64" pickOnBounds="true" preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@help-icon-transparent-background-14.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+      <Label fx:id="l1" alignment="CENTER" layoutX="1061.0" layoutY="42.0" prefHeight="55.0" prefWidth="195.0" style="-fx-border-color: white; -fx-border-width: 2px 2px 2px 2px;" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Italic" size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

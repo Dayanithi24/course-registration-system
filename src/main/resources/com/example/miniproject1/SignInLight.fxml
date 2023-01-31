@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="835.0" prefWidth="1344.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproject1.SignInLight">
+   <children>
+      <AnchorPane prefHeight="835.0" prefWidth="594.0" style="-fx-background-color: #0598ff;">
+         <children>
+            <ImageView fitHeight="498.0" fitWidth="531.0" layoutX="32.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo_light-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="back" fitHeight="62.0" fitWidth="62.0" layoutX="39.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@525-5258580_return-white-sad-face-png-transparent-png-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="username" layoutX="964.0" layoutY="298.0" prefHeight="52.0" prefWidth="231.0" promptText="UserName" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Georgia Italic" size="20.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="968.0" layoutY="392.0" prefHeight="52.0" prefWidth="231.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font name="Georgia Italic" size="20.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="login" layoutX="1005.0" layoutY="542.0" mnemonicParsing="false" onAction="#userLogin" onKeyPressed="#userLogin" prefHeight="52.0" prefWidth="149.0" style="-fx-background-color: #0598ff;" text="LOG IN" textFill="WHITE">
+         <font>
+            <Font name="Georgia" size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="906.0" layoutY="661.0" prefHeight="38.0" prefWidth="177.0" text="New User?">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="Signup" layoutX="1028.0" layoutY="661.0" onAction="#SignUpPage" prefHeight="38.0" prefWidth="112.0" text="SIGN UP" underline="true">
+         <font>
+            <Font name="Georgia Italic" size="20.0" />
+         </font>
+      </Hyperlink>
+      <Label alignment="CENTER" layoutX="929.0" layoutY="127.0" prefHeight="71.0" prefWidth="302.0" text="User Login" textFill="#0598ff">
+         <font>
+            <Font name="Georgia Italic" size="46.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="93.0" fitWidth="51.0" layoutX="886.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@user-icon-glyph-gray-background-106603565.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="51.0" layoutX="886.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pngtree-vector-lock-icon-png-image_4280050.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="wronguser2" layoutX="1029.0" layoutY="452.0" prefHeight="23.0" prefWidth="255.0" textFill="RED">
+         <font>
+            <Font name="Georgia Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="wronguser1" layoutX="1019.0" layoutY="356.0" prefHeight="23.0" prefWidth="255.0" textFill="RED">
+         <font>
+            <Font name="Georgia Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

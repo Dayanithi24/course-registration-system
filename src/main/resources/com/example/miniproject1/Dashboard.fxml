@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1520.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproject1.Dashboard">
+   <children>
+      <AnchorPane fx:id="slider" prefHeight="720.0" prefWidth="262.0" style="-fx-background-color: #0598ff;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" layoutY="267.0" prefHeight="438.0" prefWidth="178.0" spacing="33.0" style="-fx-background-color: #ffffff1e; -fx-background-radius: 10mm;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="267.0">
+               <children>
+                  <Button fx:id="home" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#homepage" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Home" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS" size="19.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@home.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Dashboard" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS" size="19.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@user.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="83.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Settings" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS" size="19.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@setting.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="help" alignment="TOP_LEFT" layoutX="10.0" layoutY="156.0" mnemonicParsing="false" onAction="#helppage" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Help" textFill="WHITE">
+                     <font>
+                        <Font name="Comic Sans MS" size="19.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="55.0" fitWidth="55.0" opacity="0.64" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@help-icon-transparent-background-14.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+            <ImageView fitHeight="203.0" fitWidth="218.0" layoutX="22.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo_light-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="262.0" prefHeight="720.0" prefWidth="1258.0" style="-fx-background-color: #0598ff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="262.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="logout" layoutX="988.0" layoutY="60.0" mnemonicParsing="false" onAction="#logoutpage" style="-fx-background-color: #ffffff1e; -fx-background-radius: 5mm;" styleClass="logOut" text="Log Out" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="25.0" />
+               </font>
+            </Button>
+            <Region layoutX="93.0" layoutY="60.0" prefHeight="261.0" prefWidth="387.0" style="-fx-background-radius: 10mm; -fx-background-color: #ffffff1e;" />
+            <Label alignment="CENTER" layoutX="140.0" layoutY="77.0" prefHeight="44.0" prefWidth="230.0" text="USER INFO" textFill="WHITE">
+               <font>
+                  <Font name="Marlett" size="32.0" />
+               </font>
+            </Label>
+            <Label fx:id="l1" layoutX="202.0" layoutY="169.0" prefHeight="44.0" prefWidth="256.0" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="l2" layoutX="202.0" layoutY="242.0" prefHeight="44.0" prefWidth="256.0" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Label>
+            <Region layoutX="93.0" layoutY="409.0" prefHeight="275.0" prefWidth="397.0" style="-fx-background-radius: 10mm; -fx-background-color: #ffffff1e;" />
+            <Label layoutX="140.0" layoutY="435.0" lineSpacing="5.0" prefHeight="113.0" prefWidth="314.0" text="NO.OF  COURSES REGISTERED" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Marlett" size="32.0" />
+               </font>
+            </Label>
+            <Label fx:id="no" alignment="CENTER" layoutX="203.0" layoutY="528.0" prefHeight="142.0" prefWidth="152.0" textFill="WHITE">
+               <font>
+                  <Font size="74.0" />
+               </font>
+            </Label>
+            <Region layoutX="616.0" layoutY="193.0" prefHeight="478.0" prefWidth="497.0" style="-fx-background-radius: 10mm; -fx-background-color: #ffffff1e;" />
+            <Label layoutX="639.0" layoutY="220.0" prefHeight="44.0" prefWidth="446.0" text="REGISTERED COURSES" textFill="WHITE">
+               <font>
+                  <Font name="Marlett" size="32.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="52.0" fitWidth="57.0" layoutX="140.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@circled-user-icon-user-pro-icon-11553397069rpnu1bqqup-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="68.0" fitWidth="57.0" layoutX="137.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@90-905970_transparent-background-in-icon-jpg-email-white-icon-png-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ListView fx:id="list" editable="true" layoutX="699.0" layoutY="310.0" prefHeight="243.0" prefWidth="352.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

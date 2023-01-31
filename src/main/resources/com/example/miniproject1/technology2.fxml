@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="4631.0" prefWidth="1520.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproject1.technology2">
+    <children>
+        <Region prefHeight="131.0" prefWidth="1520.0" style="-fx-background-color: #0598ff;" />
+        <ImageView fx:id="menu" fitHeight="55.0" fitWidth="55.0" layoutX="75.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@burger.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="120.0" fitWidth="141.0" layoutX="200.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@logo_light-removebg-preview.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="menu1" fitHeight="55.0" fitWidth="55.0" layoutX="75.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@burger.png" />
+            </image>
+        </ImageView>
+        <MenuButton alignment="CENTER" layoutX="367.0" layoutY="47.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="155.0" style="-fx-background-color: #0598ff; -fx-border-color: #ffffff; -fx-border-width: 2px;" text="Catagories" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS Italic" size="19.0" />
+            </font>
+         <items>
+            <Menu mnemonicParsing="false" text="Common">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Dbase" />
+                  <MenuItem mnemonicParsing="false" text="Java" />
+                  <MenuItem mnemonicParsing="false" text="Python" />
+                  <MenuItem mnemonicParsing="false" text="Html and Css" />
+                  <MenuItem mnemonicParsing="false" text="C/C++" />
+                  <MenuItem mnemonicParsing="false" text="English" />
+                  <MenuItem mnemonicParsing="false" text="Github" />
+                  <MenuItem mnemonicParsing="false" text="JavaScript" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Technolgy">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Ui/Ux" />
+                  <MenuItem mnemonicParsing="false" text="AIML" />
+                  <MenuItem mnemonicParsing="false" text="Cloud" />
+                  <MenuItem mnemonicParsing="false" text="Data Science" />
+                  <MenuItem mnemonicParsing="false" text="Cyber_Security" />
+                  <MenuItem mnemonicParsing="false" text="Blockchain" />
+                  <MenuItem mnemonicParsing="false" text="VR-AR" />
+                  <MenuItem mnemonicParsing="false" text="Devops" />
+               </items>
+            </Menu>
+         </items>
+        </MenuButton>
+        <ToolBar layoutX="610.0" layoutY="42.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="56.0" prefWidth="364.0" style="-fx-background-color: transparent;">
+            <items>
+                <TextField prefHeight="46.0" prefWidth="276.0" promptText="What do you want to learn?">
+               <font>
+                  <Font name="Georgia" size="16.0" />
+               </font></TextField>
+                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="46.0" prefWidth="71.0" style="-fx-background-color: white;" text="Search" textFill="GREY">
+                    <font>
+                        <Font name="Comic Sans MS Italic" size="13.0" />
+                    </font>
+                </Button>
+            </items>
+        </ToolBar>
+        <Button fx:id="logout" layoutX="1313.0" layoutY="41.0" mnemonicParsing="false" onAction="#logoutpage" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 2px;" styleClass="logOut" text="Log Out" textFill="WHITE">
+            <font>
+                <Font name="Comic Sans MS Italic" size="25.0" />
+            </font>
+        </Button>
+        <ScrollPane layoutY="131.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1520.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="4500.0" prefWidth="1518.0">
+                    <children>
+                        <AnchorPane fx:id="slider1" layoutX="262.0" prefHeight="2842.0" prefWidth="1259.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="262.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <AnchorPane layoutX="-1.0" layoutY="1283.0" prefHeight="800.0" prefWidth="1174.0">
+                                    <children>
+                                        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                            <children>
+                                                <ImageView fitHeight="199.0" fitWidth="325.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="849.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Blockchain/block1.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="ETHEREUM BLOCK CHAIN" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="258.0" text="Course Level :  Beginner">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="Blockchain applications provide a single-shared ledger to eliminate trust issues involving multiple stakeholders. With the help of Introduction to Blockchain and Ethereum, you'll learn how to create distributed Blockchain applications which do not depend on a central server or datacenter" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg5" layoutX="969.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+                                            <children>
+                                                <ImageView fitHeight="191.0" fitWidth="320.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="854.0" AnchorPane.topAnchor="9.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Blockchain/blog-feature-image-blockchain-1.png" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="WHAT IS BLOCK CHAIN?" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="274.0" text="Course Level :  Beginner">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="76.0" prefWidth="824.0" text="Learn about everything there is to know about Ethereum and Blockchain Based Applications and How To Program Them. A step by step process is used to show explain every facet of these topics." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg6" layoutX="991.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0">
+                                            <children>
+                                                <ImageView fitHeight="178.0" fitWidth="319.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="25.400000000000006" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="857.6023925781251" AnchorPane.topAnchor="7.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Blockchain/download.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="BLOCK CHAIN 201 - BLOCK CHAIN IN DEPTH" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="261.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="80.0" prefWidth="824.0" text="In this world every transaction, agreement, every process, every task and every payment would have a digital record and signature that could be identified, validated, stored and shared.By allowing digital information to be distributed but not copied, blockchain technology created the backbone of a new type of internet" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg7" layoutX="971.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="410.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="600.0">
+                                            <children>
+                                                <ImageView fitHeight="188.0" fitWidth="317.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="857.0" AnchorPane.topAnchor="7.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Blockchain/block2.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="INVESTING IN CRYPTO CURRENCIES" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="260.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="The hands-on of the course teaches students how to build their own projects as an Ethereum blockchain developer" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg8" layoutX="985.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="1079.0" prefHeight="140.0" prefWidth="1258.0" style="-fx-border-color: gray; -fx-border-width: 0px 0px 7px 0px;">
+                                    <children>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="21.0" prefHeight="97.0" prefWidth="419.0" text="BLOCK CHAIN " textFill="#4e4747">
+                                            <font>
+                                                <Font name="Goudy Old Style" size="42.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="236.0" prefHeight="800.0" prefWidth="1174.0">
+                                    <children>
+                                        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                            <children>
+                                                <ImageView fitHeight="173.0" fitWidth="289.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="27.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="885.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/VR-AR/download.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="INTRODUCTION TO MIXED REALITY" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="258.0" text="Course Level :  Beginner">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="Mixed reality is transforming the nature of on-the-job training, game development, and consumer application development. Build a foundation in the core concepts, terminology, and design processes that are unique to the development space for augmented reality, virtual reality, and mixed reality." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg1" layoutX="852.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.0">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+                                            <children>
+                                                <ImageView fitHeight="183.0" fitWidth="289.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="885.0" AnchorPane.topAnchor="10.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/VR-AR/vr2.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="INTRODUCTION TO AUGMENTED REALITY" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="274.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="80.0" prefWidth="824.0" text="Do you want to learn the new ARCore 1.3 in Unity SDK? This course will teach you all the fundamentals of ARCore augmented reality so that you can get started developing your own augmented reality apps." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg2" layoutX="982.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0">
+                                            <children>
+                                                <ImageView fitHeight="198.0" fitWidth="276.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="898.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/VR-AR/images.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="46.0" prefWidth="711.0" text="SET UP A MIXED REALITY PROJECT IN UNITY WITH THE MIXED REALITY TOOL KIT" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="261.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="80.0" prefWidth="824.0" text="Import the Mixed Reality Toolkit (MRTK) into your Unity project to accelerate your mixed reality development. You can also deploy your project to a HoloLens." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg3" layoutX="990.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.0">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="410.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="600.0">
+                                            <children>
+                                                <ImageView fitHeight="180.0" fitWidth="339.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="835.0" AnchorPane.topAnchor="10.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/VR-AR/vr1.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="IOS AUGUMENTED REALITY IN ARKIT_CODE" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="260.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="Augmented Reality effortlessly allows both, creatives and app developers alike to create new, creative, and fun-filled experiences directly on their iPhones or iPads! Augmented Reality has been exploding in the past few years" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg4" layoutX="968.0" layoutY="136.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="31.0" prefHeight="140.0" prefWidth="1258.0" style="-fx-border-color: gray; -fx-border-width: 0px 0px 7px 0px;">
+                                    <children>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="21.0" prefHeight="97.0" prefWidth="419.0" text="VR AND AR" textFill="#4e4747">
+                                            <font>
+                                                <Font name="Goudy Old Style" size="42.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="2328.0" prefHeight="800.0" prefWidth="1250.0">
+                                    <children>
+                                        <AnchorPane prefHeight="200.0" prefWidth="1183.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="75.0">
+                                            <children>
+                                                <ImageView fitHeight="164.0" fitWidth="299.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="875.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Devops/7602.1513404277.png" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="AZURE DEVOPS" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="258.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="This course introduces participants to Azure Devops and enables them to leverage the services of Devops like build and release automation, CI/CD configuration, etc" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg9" layoutX="984.0" layoutY="130.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="1180.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="78.0" AnchorPane.topAnchor="200.0">
+                                            <children>
+                                                <ImageView fitHeight="175.0" fitWidth="296.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="878.0" AnchorPane.topAnchor="7.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Devops/images.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="DEVOPS FUNDAMENTALS" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="274.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="76.0" prefWidth="824.0" text="DevOps is the union of people, process, and products to enable the continuous delivery of value to end users. It aims to create a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg10" layoutX="992.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="1180.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="78.0" AnchorPane.topAnchor="400.0">
+                                            <children>
+                                                <ImageView fitHeight="170.0" fitWidth="294.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="880.0" AnchorPane.topAnchor="9.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Devops/images.png" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="46.0" prefWidth="535.0" text="MASTERING DEVOPS" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="261.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="80.0" prefWidth="824.0" text="This video course covers the theory behind, and the hands-on application of, those concepts needed to maximize the throughput of your organization. The course introduces frameworks for discussing DevOps principles and brings those concepts to life with explanations and real working code." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg11" layoutX="985.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="60.00000000000003">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="410.0" prefHeight="200.0" prefWidth="1248.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="600.0">
+                                            <children>
+                                                <ImageView fitHeight="183.0" fitWidth="258.0" layoutX="23.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="967.0" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/Devops/dev1.png" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="46.0" prefWidth="558.0" text="MASTERING PUPPET THE DEVOPS WAY BY SCHOOL OF DEVOPS" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="260.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="789.0" text="Infrastructure as a code is one of the foundations of the DevOps Automation toolchain. Being the first to enter in 2005, Puppet is at the forefront of the IaaC revolutions and was the first tool amongst the four main configuration management tools including Chef, Ansible and Saltstack" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg12" layoutX="1002.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="136.4">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="2127.0" prefHeight="140.0" prefWidth="1258.0" style="-fx-border-color: gray; -fx-border-width: 0px 0px 7px 0px;">
+                                    <children>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="21.0" prefHeight="97.0" prefWidth="419.0" text="DEVOPS" textFill="#4e4747">
+                                            <font>
+                                                <Font name="Goudy Old Style" size="42.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="3387.0" prefHeight="800.0" prefWidth="1222.0">
+                                    <children>
+                                        <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                            <children>
+                                                <ImageView fitHeight="199.0" fitWidth="325.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="985.5005615234375" AnchorPane.topAnchor="1.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/UI-UX/ui2.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="INTRODUCTION TO UI/UX" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="258.0" text="Course Level :  Beginner">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="User Interface (UI) and User Experience (UX) Design is a constantly evolving, required discipline in all domains of technology. Explore various modern concepts that can be used when designing apps to enhance a user's experience." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg13" layoutX="993.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="190.20000000000005">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="200.0">
+                                            <children>
+                                                <ImageView fitHeight="168.0" fitWidth="325.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="980.0" AnchorPane.topAnchor="14.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/UI-UX/ui3.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="UI/UX FOR CHAT BOTS ANF ALL VOICE INTERFACE AI’S" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="274.0" text="Course Level :  Beginner">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="76.0" prefWidth="824.0" text="As chatbots and voice interfaces gain popularity, developers are starting to depend on AI systems to make them even more intelligent. Discover how to design a positive user experience when creating an AI" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg14" layoutX="995.0" layoutY="133.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="190.20000000000007">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="400.0">
+                                            <children>
+                                                <ImageView fitHeight="192.0" fitWidth="290.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1016.2754028320312" AnchorPane.topAnchor="0.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/UI-UX/images.jfif" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="46.0" prefWidth="535.0" text="UI/UX FUNDAMENTALS TO ADVANCED" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="261.0" text="Course Level :  Advanced">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="350.0" layoutY="65.0" prefHeight="80.0" prefWidth="824.0" text="This hands-on course examines how content is organized and structured to create an experience for a user, and what role the designer plays in creating and shaping user experience. You will be led through a condensed process that acts as a roadmap for developing robust UI/UX design" wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg15" layoutX="1005.0" layoutY="132.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="190.20000000000007">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                        <AnchorPane layoutX="10.0" layoutY="410.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="600.0">
+                                            <children>
+                                                <ImageView fitHeight="177.0" fitWidth="311.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="863.0" AnchorPane.topAnchor="18.0">
+                                                    <image>
+                                                        <Image url="@courses/technology/UI-UX/ui1.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                                <Label layoutX="350.0" layoutY="14.0" prefHeight="45.0" prefWidth="501.0" text="CREATE YOUR UI/UX PORTFOLIOS WITH GITHUB" wrapText="true">
+                                                    <font>
+                                                        <Font name="System Bold" size="17.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label layoutX="350.0" layoutY="135.0" prefHeight="42.0" prefWidth="260.0" text="Course Level :  Intermediate">
+                                                    <font>
+                                                        <Font name="Wingdings" size="19.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label alignment="TOP_LEFT" layoutX="360.0" layoutY="65.0" prefHeight="70.0" prefWidth="824.0" text="Learners will create a portfolio showcasing their UI/UX projects and deploy it to GitHub. Creating a strong portfolio showcases not only their skills as a designer, but also their perseverance to learn some new skills outside the typical purview of a designer (in this case, coding languages HTML and CSS, and Microsoft’s Visual Studio Code)." wrapText="true">
+                                                    <font>
+                                                        <Font size="15.0" />
+                                                    </font>
+                                                </Label>
+                                    <Button fx:id="reg16" layoutX="996.0" layoutY="136.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="121.0" style="-fx-background-color: #0598ff;" text="Register" textFill="WHITE" AnchorPane.rightAnchor="190.20000000000007">
+                                       <font>
+                                          <Font name="Comic Sans MS" size="20.0" />
+                                       </font>
+                                    </Button>
+                                            </children>
+                                        </AnchorPane>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane layoutX="-1.0" layoutY="3169.0" prefHeight="140.0" prefWidth="1258.0" style="-fx-border-color: gray; -fx-border-width: 0px 0px 7px 0px;">
+                                    <children>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="14.0" layoutY="21.0" prefHeight="97.0" prefWidth="419.0" text="UI AND UX" textFill="#4e4747">
+                                            <font>
+                                                <Font name="Goudy Old Style" size="42.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <Button fx:id="prev" layoutX="83.0" layoutY="4308.0" mnemonicParsing="false" onAction="#prevpage" prefHeight="74.0" prefWidth="276.0" style="-fx-background-color: #0598ff; -fx-border-color: grey; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="&lt;&lt;Previous Page" textFill="WHITE">
+                                    <font>
+                                        <Font name="Constantia Italic" size="31.0" />
+                                    </font>
+                                </Button>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="slider" prefHeight="2880.0" prefWidth="262.0" style="-fx-background-color: #919191;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <VBox layoutY="26.0" prefHeight="438.0" prefWidth="178.0" spacing="33.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+                                    <children>
+                                        <Button fx:id="home" alignment="TOP_LEFT" mnemonicParsing="false" onAction="#homepage" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Home" textFill="WHITE">
+                                            <font>
+                                                <Font name="Comic Sans MS" size="19.0" />
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@home.png" />
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                        <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#dashboard" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Dashboard" textFill="WHITE">
+                                            <font>
+                                                <Font name="Comic Sans MS" size="19.0" />
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@user.png" />
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                        <Button alignment="TOP_LEFT" layoutX="10.0" layoutY="83.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Settings" textFill="WHITE">
+                                            <font>
+                                                <Font name="Comic Sans MS" size="19.0" />
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@setting.png" />
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                        <Button fx:id="help" alignment="TOP_LEFT" layoutX="10.0" layoutY="156.0" mnemonicParsing="false" onAction="#helppage" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Help" textFill="WHITE">
+                                            <font>
+                                                <Font name="Comic Sans MS" size="19.0" />
+                                            </font>
+                                            <graphic>
+                                                <ImageView fitHeight="55.0" fitWidth="55.0" opacity="0.64" pickOnBounds="true" preserveRatio="true">
+                                                    <image>
+                                                        <Image url="@help-icon-transparent-background-14.jpg" />
+                                                    </image>
+                                                </ImageView>
+                                            </graphic>
+                                        </Button>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+      <Label fx:id="l1" alignment="CENTER" layoutX="1102.0" layoutY="41.0" prefHeight="55.0" prefWidth="195.0" style="-fx-border-color: white; -fx-border-width: 2px 2px 2px 2px;" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Italic" size="18.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

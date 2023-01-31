@@ -1,0 +1,12 @@
+.sidebarItem:hover{
+    -fx-border-color: WHITE;
+    -fx-background-color: WHITE;
+    -fx-border-width: 0px 0px 0px 5px;
+}
+.image:hover{
+    -fx-border-color: GREEN;
+    -fx-border-width: 5px 5px 5px 5px;
+}
+.search:onclick{
+    -fx-border-color: RED;
+}

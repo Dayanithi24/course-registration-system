@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane prefHeight="1000.0" prefWidth="1520.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproject1.IntroPage">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1020.0" prefWidth="1520.0">
+            <children>
+                <ImageView fitHeight="198.0" fitWidth="275.0" layoutX="1188.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image11.jpeg" />
+                    </image>
+                </ImageView>
+                <Separator orientation="VERTICAL" prefHeight="1012.0" prefWidth="18.0" />
+                <Text layoutX="225.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We bring the quality content from our partners and leading universities across the world." textAlignment="CENTER" wrappingWidth="979.13671875">
+                    <font>
+                        <Font name="Comic Sans MS Italic" size="22.0" />
+                    </font>
+                </Text>
+                <Text layoutX="325.0" layoutY="827.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trusted by over 13,400 great teamsLeading companies use the same courses to help employees keep their skills fresh." textAlignment="CENTER" wrappingWidth="814.13671875">
+                    <font>
+                        <Font name="Forte" size="24.0" />
+                    </font>
+                </Text>
+                <Text fill="#1e0101" layoutX="25.0" layoutY="608.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies." textAlignment="CENTER" wrappingWidth="299.13671875">
+                    <font>
+                        <Font name="Comic Sans MS" size="18.0" />
+                    </font>
+                </Text>
+            <HBox alignment="CENTER" layoutX="414.0" layoutY="891.0" prefHeight="113.0" prefWidth="1520.0" spacing="110.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="891.0">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image12.jpeg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="66.0" fitWidth="89.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image8.jpeg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="43.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image10.jpeg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="37.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image5.jpeg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image6.jpeg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="33.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image7.jpeg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="29.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image3.jpeg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="72.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image14.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </HBox>
+                <ImageView fitHeight="198.0" fitWidth="259.0" layoutX="45.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@2250x1500_czy-warto-korzystac-ze-szkolen-online-ollh.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="277.0" fitWidth="251.0" layoutX="1199.0" layoutY="632.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@image1.jpeg" />
+                    </image>
+                </ImageView>
+                <Text layoutX="457.0" layoutY="899.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We collaborate with 275+ leading universities and companies" wrappingWidth="664.13671875">
+                    <font>
+                        <Font name="Poor Richard" size="24.0" />
+                    </font>
+                </Text>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a8fffe" height="74.0" layoutX="216.0" layoutY="480.0" stroke="WHITE" strokeType="INSIDE" width="1032.0" />
+                <Text layoutX="208.0" layoutY="511.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We aim to enable students and associated communities from early education to employment by enabling them on digital and supporting life skills." textAlignment="CENTER" wrappingWidth="1048.13671875">
+                    <font>
+                        <Font name="Georgia" size="24.0" />
+                    </font>
+                </Text>
+                <Ellipse fill="#191e5b" layoutX="142.0" layoutY="814.0" radiusX="106.0" radiusY="88.0" stroke="BLACK" strokeType="INSIDE" />
+                <Text fill="WHITE" layoutX="48.0" layoutY="779.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9/10 of our learners achieve their learning objectives after successful course completion" textAlignment="CENTER" wrappingWidth="187.13671875">
+                    <font>
+                        <Font name="Times New Roman Bold Italic" size="18.0" />
+                    </font>
+                </Text>
+                <Ellipse fill="#655c5c" layoutX="732.0" layoutY="333.0" radiusX="365.0" radiusY="33.0" stroke="BLACK" strokeType="INSIDE" />
+                <Text fill="WHITE" layoutX="465.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot; Tomorrow belongs to those who prepare for it today.”" wrappingWidth="590.13671875">
+                    <font>
+                        <Font name="Forte" size="24.0" />
+                    </font>
+                </Text>
+                <AnchorPane prefHeight="146.0" prefWidth="1350.0" style="-fx-background-color: #0598ff;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                    <children>
+                        <ImageView fitHeight="136.0" fitWidth="294.0" layoutX="104.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@logo_light-removebg-preview.png" />
+                            </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="503.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A learning platform">
+                            <font>
+                                <Font name="Times New Roman Bold Italic" size="48.0" />
+                            </font>
+                        </Text>
+                        <Button fx:id="login" layoutX="1271.0" layoutY="62.0" mnemonicParsing="false" onAction="#loginpage" prefHeight="39.0" prefWidth="97.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 2px,2px,2px,2px;" text="LOG IN" textFill="WHITE">
+                            <font>
+                                <Font name="Comic Sans MS Italic" size="18.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="signup" layoutX="1114.0" layoutY="62.0" mnemonicParsing="false" onAction="#signuppage" prefHeight="40.0" prefWidth="111.0" style="-fx-background-color: TRANSPARENT; -fx-border-color: WHITE; -fx-border-width: 2px,2px,2px,2px;" text="SIGN UP" textFill="WHITE">
+                            <font>
+                                <Font name="Comic Sans MS Italic" size="18.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" height="51.0" layoutX="363.0" layoutY="203.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-width: 25; -fx-arc-height: 25;" width="738.0">
+                    <fill>
+                        <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.8483412322274881">
+                            <stops>
+                                <Stop>
+                                    <color>
+                                        <Color red="0.8899999856948853" green="0.5633699893951416" blue="0.5162000060081482" />
+                                    </color>
+                                </Stop>
+                                <Stop offset="1.0">
+                                    <color>
+                                        <Color red="0.1666666716337204" green="0.5972222089767456" blue="1.0" />
+                                    </color>
+                                </Stop>
+                            </stops>
+                        </LinearGradient>
+                    </fill>
+                </Rectangle>
+                <Text fill="#0a0a0a" layoutX="342.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn from global experts and get certified by world's leading universities" textAlignment="CENTER" wrappingWidth="780.13671875">
+                    <font>
+                        <Font name="Times New Roman" size="24.0" />
+                    </font>
+                </Text>
+            <ImageView fitHeight="174.0" fitWidth="361.0" layoutX="580.0" layoutY="593.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@quote-learn-continually-there-s-always-one-more-thing-to-learn-steve-jobs-106-4-0450.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+    </content>
+</ScrollPane>

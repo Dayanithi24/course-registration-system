@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="2000.0" prefWidth="1520.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproject1.newfx">
+   <children>
+      <Region prefHeight="120.0" prefWidth="1520.0" style="-fx-background-color: #0598ff;" />
+      <ImageView fx:id="menu" fitHeight="55.0" fitWidth="55.0" layoutX="65.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@burger.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="141.0" layoutX="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo_light-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="menu1" fitHeight="55.0" fitWidth="55.0" layoutX="65.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@burger.png" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutY="120.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2000.0" prefWidth="1520.0">
+               <children>
+                  <AnchorPane fx:id="slider1" layoutX="262.0" layoutY="1.0" prefHeight="2000.0" prefWidth="1250.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="262.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="562.0" fitWidth="887.0" layoutX="82.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@lock.png" />
+                           </image>
+                        </ImageView>
+                        <ListView fx:id="list" editable="true" layoutX="602.0" prefHeight="243.0" prefWidth="352.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="slider" prefHeight="2880.0" prefWidth="262.0" style="-fx-background-color: #919191;" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <VBox layoutY="122.0" prefHeight="438.0" prefWidth="178.0" spacing="33.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+                           <children>
+                              <Button fx:id="home" alignment="TOP_LEFT" mnemonicParsing="false" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Home" textFill="WHITE">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="19.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@home.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="dash" alignment="TOP_LEFT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Dashboard" textFill="WHITE">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="19.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@user.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="set" alignment="TOP_LEFT" layoutX="10.0" layoutY="83.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Settings" textFill="WHITE">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="19.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="55.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@setting.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button fx:id="help" alignment="TOP_LEFT" layoutX="10.0" layoutY="156.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="230.0" style="-fx-background-color: transparent;" styleClass="sidebarItem" text="Help" textFill="WHITE">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="19.0" />
+                                 </font>
+                                 <graphic>
+                                    <ImageView fitHeight="55.0" fitWidth="55.0" opacity="0.64" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@help-icon-transparent-background-14.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <MenuButton alignment="CENTER" layoutX="357.0" layoutY="37.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="155.0" style="-fx-background-color: #0598ff; -fx-border-color: #ffffff; -fx-border-width: 2px;" text="Catagories" textFill="WHITE">
+         <items>
+            <Menu mnemonicParsing="false" text="Common">
+              <items>
+                  <MenuItem mnemonicParsing="false" text="Dbase" />
+                  <MenuItem mnemonicParsing="false" text="Java" />
+                <MenuItem mnemonicParsing="false" text="Python" />
+                  <MenuItem mnemonicParsing="false" text="Html and Css" />
+                  <MenuItem mnemonicParsing="false" text="C/C++" />
+                  <MenuItem mnemonicParsing="false" text="English" />
+                  <MenuItem mnemonicParsing="false" text="Github" />
+                  <MenuItem mnemonicParsing="false" text="JavaScript" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Technolgy">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Ui/Ux" />
+                  <MenuItem mnemonicParsing="false" text="AIML" />
+                  <MenuItem mnemonicParsing="false" text="Cloud" />
+                  <MenuItem mnemonicParsing="false" text="Data Science" />
+                  <MenuItem mnemonicParsing="false" text="Cyber_Security" />
+                  <MenuItem mnemonicParsing="false" text="Blockchain" />
+                  <MenuItem mnemonicParsing="false" text="VR-AR" />
+                  <MenuItem mnemonicParsing="false" text="Devops" />
+              </items>
+            </Menu>
+         </items>
+         <font>
+            <Font name="Comic Sans MS Italic" size="19.0" />
+         </font>
+      </MenuButton>
+      <ToolBar layoutX="600.0" layoutY="32.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="56.0" prefWidth="364.0" style="-fx-background-color: transparent;">
+         <items>
+            <TextField fx:id="sbox" onAction="#search" prefHeight="46.0" prefWidth="276.0" />
+            <Button fx:id="search" alignment="CENTER" mnemonicParsing="false" prefHeight="46.0" prefWidth="71.0" style="-fx-background-color: white;" styleClass="search" stylesheets="@Style.css" text="Search" textFill="GREY">
+               <font>
+                  <Font name="Comic Sans MS Italic" size="13.0" />
+               </font>
+            </Button>
+         </items>
+      </ToolBar>
+      <Button fx:id="logout" layoutX="1275.0" layoutY="32.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 2px;" styleClass="logOut" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Italic" size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="l1" alignment="CENTER" layoutX="1052.0" layoutY="32.0" prefHeight="55.0" prefWidth="195.0" style="-fx-border-color: white; -fx-border-width: 2px 2px 2px 2px;" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
